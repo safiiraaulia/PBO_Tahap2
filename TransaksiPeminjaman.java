@@ -29,22 +29,12 @@ public class TransaksiPeminjaman {
     
      public void catatPeminjaman() {
         System.out.println("Catatan Peminjaman");
-         System.out.println("Nama Peminjam: " + nama);
+        System.out.println("Nama Peminjam: " + nama);
         System.out.println("Tanggal Peminjaman: " + tanggal);
         System.out.println("Durasi Peminjaman (hari): " + durasi);
         System.out.println( "Nomor Anggota: "+ anggota.getNomorAnggota());
         System.out.println("Buku: " + buku.getJudul() + " (Pengarang: " + buku.getPengarang() + ")");
     }
-     
-//     @Override
-//public String toString() {
-//    return "====================================\n"
-//            + "Nama Peminjam: " + getNama() + "\n"
-//            + "Tanggal Peminjaman: " + getTanggal() + "\n"
-//            + "Durasi Peminjaman (hari): " + getDurasi() + "\n"
-//            + "Nomor Anggota: " + getAnggota().getNomorAnggota() + "\n"
-//            + "Buku: " + getBuku().getJudul() + " (Pengarang: " + getBuku().getPengarang() + ")\n";
-//}
 
     public String getNama() {
         return nama;
@@ -88,18 +78,3 @@ public class TransaksiPeminjaman {
         this.buku = buku;
     }
     
-//    public class Main {
-//    public static void main(String[] args) {
-//        Buku buku1 = new Buku("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", "978-0-7475-3269-6");
-//        AnggotaPerpustakaan anggota1 = new AnggotaPerpustakaan("Safira Aulia", 123456, "Jl. Mataram No.8");
-//
-//        // Mendefinisikan tanggal dan waktu untuk transaksi
-//        String tanggal = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-//        
-//        TransaksiPeminjaman transaksi1 = new TransaksiPeminjaman("28-11-2023",  3, anggota1, buku1);
-//
-//        // Menampilkan catatan peminjaman
-//        transaksi1.catatPeminjaman();
-//    }
-}
-//}
