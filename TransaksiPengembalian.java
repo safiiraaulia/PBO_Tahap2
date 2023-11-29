@@ -52,17 +52,4 @@ public class TransaksiPengembalian {
     public void setAnggota(AnggotaPerpustakaan anggota) {
         this.anggota = anggota;
     }
-    
-//class Main {
-//    public static void main(String[] args) {
-//        Buku buku1 = new Buku("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", "978-0-7475-3269-6");
-//        AnggotaPerpustakaan anggota1 = new AnggotaPerpustakaan("John Doe", 123456, "Jalan ABC No. 123");
-//        
-//        String tanggal = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-//
-//        TransaksiPengembalian pengembalian1 = new TransaksiPengembalian("1-12-2023", anggota1, buku1);
-//        pengembalian1.catatPengembalian();
-//    }
 }
-
-//}
