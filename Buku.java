@@ -63,16 +63,3 @@ public class Buku {
     public void setStatusKetersediaan(String statusKetersediaan) {
         this.statusKetersediaan = statusKetersediaan;
     }
-    
-//     public static void main(String[] args) {
-//        Buku buku1 = new Buku("Hujan", "Tere Liye", "9786020324784");
-//        Buku buku2 = new Buku("Pulang", "Tere Liye", "9786020822129");
-//
-//        buku1.informasiBuku();
-//        buku1.cekKetersediaan();
-//        System.out.println(); // Baris kosong antara informasi buku
-//        buku2.informasiBuku();
-//        buku2.cekKetersediaan();
-//
-//    }
-}
