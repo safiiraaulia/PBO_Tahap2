@@ -30,7 +30,6 @@ public class Notifikasi{
     
     
     public void kirimNotifikasi() {
-        // Implementasi pengiriman notifikasi
         System.out.println("Notifikasi dikirim dengan batas waktu: " + batas_waktu );
         System.out.println( "Info: " + info_terbaru);
 
