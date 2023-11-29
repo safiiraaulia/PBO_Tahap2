@@ -20,17 +20,14 @@ class Admin {
     
 
     public void kelolaAnggota() {
-        // Implementasi logika kelola anggota
         System.out.println("Mengelola Anggota...");
     }
 
     public void kelolaBuku() {
-        // Implementasi logika kelola buku
         System.out.println("Mengelola Buku...");
     }
 
     public void buatLaporan() {
-        // Implementasi logika membuat laporan
         System.out.println("Membuat Laporan...");
         Scanner scanner = new Scanner(System.in);
 
@@ -49,21 +46,3 @@ class Admin {
     }
     
 }
-
-//class Main{
-//    public static void main(String[] args) {
-//        Admin admin = new Admin();
-//
-//        // Panggil method untuk mengelola anggota
-//        admin.kelolaAnggota();
-//
-//        // Panggil method untuk mengelola buku
-//        admin.kelolaBuku();
-//
-//        // Panggil method untuk membuat laporan
-//        admin.buatLaporan();
-//
-//        // Tampilkan laporan yang telah dibuat
-//        System.out.println("Laporan: " + admin.getLaporan());
-//    }
-//}
