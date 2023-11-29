@@ -27,8 +27,6 @@ public class Notifikasi{
     public void setInfo_terbaru(String info_terbaru) {
         this.info_terbaru = info_terbaru;
     }
-    
-    
     public void kirimNotifikasi() {
         System.out.println("Notifikasi dikirim dengan batas waktu: " + batas_waktu );
         System.out.println( "Info: " + info_terbaru);
